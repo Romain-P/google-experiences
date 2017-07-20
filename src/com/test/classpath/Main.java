@@ -27,7 +27,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        find(Named.class, "classpath").forEach(
+        find(Controller.class, "classpath").forEach(
                 (x, y) -> System.out.println(String.format("Class: %s, Annotation: %s", x, y.value())));
     }
 }
