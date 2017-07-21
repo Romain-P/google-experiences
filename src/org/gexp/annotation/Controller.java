@@ -1,4 +1,4 @@
-package com.test.classpath;
+package org.gexp.annotation;
 
 import com.google.inject.BindingAnnotation;
 
